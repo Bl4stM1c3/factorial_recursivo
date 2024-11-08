@@ -1,0 +1,6 @@
+#Posible solucion al problema 14 de https://retosdeprogramacion.com/ejercicios/
+#Escribe una función que calcule y retorne el factorial de un número dado
+#de forma recursiva.
+
+def factorial_recursivo(numero):
+  return 1 if numero == 0 or numero == 1 else numero * factorial_recursivo(numero - 1)
